@@ -1,0 +1,112 @@
+.login {
+    width: 65%;
+    height: 70%;
+    z-index: 1;
+    position: absolute;
+    padding: 0;
+    box-shadow: 0 10px 40px 1px #727272;
+    margin: 8% 0 0 0;
+    left: 18%;
+    right: 18%;
+}
+
+.left {
+    background-color: #35fbc0;
+    display: inline;
+    text-align: center;
+    height: 100%;
+    z-index: 1;
+}
+
+.right {
+    background-color: whitesmoke;
+    text-align: center;
+    display: inline;
+    padding: 15%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.bold {
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.label-inputs
+{
+    font-size: 18px;
+}
+
+.bold-login {
+    font-weight: bolder !important;
+    font-size: 22px;
+}
+
+.label-login {
+    display: block;
+    /* text-align: center; */
+}
+
+.allign-left {
+    text-align: left;
+}
+
+.allign-right {
+    text-align: right;
+}
+
+.need-help {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+
+.btnn {
+    width: 100%;
+    display: block;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 15px;
+    background: #35fbc0;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+}
+
+.btnn:hover {
+    background: #38e0ae;
+    text-decoration: none;
+  
+}
+.btnn:active
+{
+    background: #83e4c7!important;
+  }
+
+.margin-form {
+    margin: 2% 0 4% 0;
+}
+
+.margin-password {
+    margin: 2% 0 1% 0;
+}
+
+.margin-button {
+    margin: 12% 0 0 0;
+}
+.margin-login
+{
+    margin:0 0 10% 0;
+}
+.clean-my-car
+{
+    font-style: italic;
+    font-size: 30px;
+}
+.extra-size{
+font-size: 3.5rem;
+}

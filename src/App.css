@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.green
+{
+  background-color: #35fbc0;
+  position: relative;
+  width: 39.65%;
+  height: 100%;
+  z-index: -1;
+  padding:0;
+  display: inline-block;
+}
+.white
+{
+  background-color: whitesmoke;
+  height:100%;
+  width:60.35%;
+  z-index: -1;
+  padding:0;
+  position: relative;
+  display: inline-block;
+}
+#root, .root , .general
+{
+  width: 100%;
+  max-width: 100%!important;
+  height: 100%;
+  position:absolute;
+  z-index: 0;
+}
+.general{
+  margin:0!important;
+  padding:0!important;
+  z-index: -1;
+  position: absolute;
+  display: flex;
+  /* text-align: center; */
+}
