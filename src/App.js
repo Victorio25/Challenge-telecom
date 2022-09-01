@@ -8,8 +8,8 @@ import {
   Routes,
   NavLink
 } from "react-router-dom";
-import { PokeList } from './componentes/PokeList';
-import { Login } from './componentes/Login';
+import { PokeList } from './componentes/pokelist/PokeList';
+import { Login } from './componentes/login/Login';
 export default function App() {
   return (
 

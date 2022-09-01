@@ -10,6 +10,10 @@
     right: 18%;
 }
 
+.green-background
+{
+    background-color: #35fbc0;
+}
 .left {
     background-color: #35fbc0;
     display: inline;
