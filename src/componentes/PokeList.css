@@ -51,7 +51,7 @@
 }
 
 .input:hover {
-    background-color: #35fbc0;
+    background-color: #00c98d;
 }
 
 .input:active {
@@ -89,5 +89,30 @@ input[type="number"] {
     transform: rotate(-70deg);
     position: relative;
     left: 70%;
+    top:15%;
     z-index: -1;
+}
+.wobbuffet
+{ 
+    width: 40%;
+    -webkit-transform:rotate(65deg);
+    -moz-transform: rotate(65deg);
+    -ms-transform: rotate(65deg);
+    -o-transform: rotate(65deg);
+    transform: rotate(65deg);
+    position: relative;
+    right: 70%;
+    top:15%;
+    z-index: -1;
+}
+.form-group
+{
+    margin:1rem;
+}
+.hr-form
+{
+    border-top: 2px solid;
+    color: black;
+    opacity: 0.4;
+    margin: 2rem 3rem;
 }

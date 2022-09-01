@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import "./PokeList.css";
 import { ModalPokemon } from "./ModalPokemon.js";
 import pikachu from "../imagenes/pikachu.png"
+import wobbuffet from "../imagenes/wobbuffet.png"
 export function PokeList() {
 
     const [openModal, setOpenModal] = useState(false)
@@ -104,7 +105,7 @@ export function PokeList() {
 
     return (
         <div className="container-fluid row pokemon-list">
-            <div className="col-5">
+            <div className="col-5 bold">
                 <form onSubmit={(event) => put(event)}>
                     <div className="form-group">
                         <label> Name:</label>
@@ -134,26 +135,28 @@ export function PokeList() {
                         </div>
                     </div>
                 </form>
+                <hr className="hr-form"></hr>
                 <img src={pikachu} className="pikachu"></img>
+                <img src={wobbuffet} className ="wobbuffet"></img>
             </div>
             <div className="col-7 list">
                 <h1 className="center">Pokemons</h1>
                 <table className="table">
                     <thead>
-                        <tr>
-                            <th>Number</th>
-                            <th>Name</th>
-                            <th>Options</th>
+                        <tr className="row">
+                            <th className="col-3">Number</th>
+                            <th className="col-6">Name</th>
+                            <th className="col-3">Options</th>
                         </tr>
                     </thead>
                     <tbody>
                         {pokemonList.length > 0 && (
                             pokemonList.map(item => (
-                                <tr key={item.name}>
-                                    <td>{item.url.slice(34, -1)}</td>
-                                    <td>{item.name}</td>
+                                <tr  className="row" key={item.name}>
+                                    <td className="col-3">{item.url.slice(34, -1)}</td>
+                                    <td className="col-6">{item.name}</td>
 
-                                    <td>
+                                    <td className="col-3">
                                         <button className="btn btn-primary button-table" onClick={() => showPokemon(item.url.slice(34, -1))}>Info</button>
                                         <button className="btn btn-success button-table" onClick={() => getPokemon(item.url.slice(34, -1))}>Edit</button>
                                         <button className="btn btn-danger button-table" onClick={() => showConfirm(item.url.slice(34, -1))}>Delete</button>

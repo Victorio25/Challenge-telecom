@@ -27,12 +27,12 @@ export function Login() {
                 <label className="label-login allign-left bold label-inputs">
                     Email
                 </label>
-                <input type="text" className="form-control margin-form" placeholder="Joe@email.com">
+                <input type="text" className="form-control margin-form" placeholder="Joe@email.com" required>
                 </input>
                 <label className="label-login allign-left bold label-inputs">
                     Password
                 </label>
-                <input type="password" className="form-control margin-password" placeholder="Enter your Password">
+                <input type="password" className="form-control margin-password" placeholder="Enter your Password" required>
 
                 </input>
                 <label className="label-login allign-right bold">
